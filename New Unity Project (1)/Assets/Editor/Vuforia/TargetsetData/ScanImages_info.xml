@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QCAR_Dataset_config.xsd">
   <TargetSet version="5.0" toolVersion="4.2.0">
-    <ObjectTarget bbox="0.0000 0.0000 0.0000 0.1425 0.0950 0.0950" captureAppVersion="6.5.0" lastSaved="2020-01-29T16:40:04Z" name="5m" targetId="40734677e6c3466f87380ce0376cda58" version="2.0" />
-    <ObjectTarget bbox="0.0000 0.0000 0.0000 0.1425 0.0950 0.0950" captureAppVersion="6.5.0" lastSaved="2020-01-29T16:21:10Z" name="3m" targetId="a45277e3f4594ae19a55888411b0d2b6" version="2.0" />
+    <ObjectTarget bbox="0.0000 0.0000 0.0000 0.1425 0.0950 0.0950" captureAppVersion="6.5.0" lastSaved="2020-02-06T17:07:06Z" name="little_eyes" targetId="a8698b21e56848e6baaed250ce16f428" version="2.0" />
+    <ObjectTarget bbox="0.0000 0.0000 0.0000 0.1425 0.0950 0.0950" captureAppVersion="6.5.0" lastSaved="2020-02-06T16:59:22Z" name="bird_man" targetId="b9e04e2c86914719a286f461b4480513" version="2.0" />
+    <ObjectTarget bbox="0.0000 0.0000 0.0000 0.1425 0.0950 0.0950" captureAppVersion="6.5.0" lastSaved="2020-02-06T16:48:36Z" name="pink_green_boxy" targetId="e9bd9691c8a5414785f42e759aa272af" version="2.0" />
+    <ObjectTarget bbox="0.0000 0.0000 0.0000 0.1425 0.0950 0.0950" captureAppVersion="6.5.0" lastSaved="2020-02-06T16:10:26Z" name="sad_yellow_rain" targetId="47ae8196c83f41379a6a047f622cb4e5" version="2.0" />
+    <ObjectTarget bbox="0.0000 0.0000 0.0000 0.1425 0.0950 0.0950" captureAppVersion="6.5.0" lastSaved="2020-02-06T16:36:51Z" name="5eye_red" targetId="aec7d74fc39642afadb49e184155613b" version="2.0" />
   </TargetSet>
 </QCARInfo>

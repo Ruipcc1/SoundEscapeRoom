@@ -11,7 +11,7 @@ public class PlaySound : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<AudioSource>().Play();
+        audioSource.PlayOneShot(sound);
     }
 
     // Update is called once per frame
@@ -20,7 +20,6 @@ public class PlaySound : MonoBehaviour
         if(script.playing == true)
         {
             GetComponent<AudioSource>().Stop();
-            StartCoroutine(Wait());
         }
     }
 
