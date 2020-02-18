@@ -18,6 +18,7 @@ public class PlaySound : MonoBehaviour
         if(script.playing == true)
         {
             GetComponent<AudioSource>().Stop();
+            StartCoroutine(Wait());
         }
     }
 
@@ -27,6 +28,18 @@ public class PlaySound : MonoBehaviour
         if(script.winning == false)
         {
             GetComponent<AudioSource>().Play();
+            script.Input = "";
         }
+        else if (script.winning == true)
+        {
+            StartCoroutine(Win());
+        }
+    }
+
+    IEnumerator Win()
+    {
+        yield return new WaitForSeconds(60);
+            script.Input = "";
+        GetComponent<AudioSource>().Play();
     }
 }
