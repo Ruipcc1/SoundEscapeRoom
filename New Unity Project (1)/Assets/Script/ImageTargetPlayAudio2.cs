@@ -8,8 +8,7 @@ public class ImageTargetPlayAudio2 : MonoBehaviour, ITrackableEventHandler
     private TrackableBehaviour mTrackableBehaviour;
     public bool playing;
     public string number;
-    public string Input;
-    public string tempInput;
+    public CodeManager script;
 
     void Start()
     {
@@ -31,15 +30,14 @@ public class ImageTargetPlayAudio2 : MonoBehaviour, ITrackableEventHandler
         {
             // Play audio when target is found
             GetComponent<AudioSource>().Play();
-            playing = true;
-            tempInput = number;
-            Input = Input + tempInput;
+            script.playing = true;
+            script.Input = script.Input + number;
         }
         else
         {
             // Stop audio when target is lost
             GetComponent<AudioSource>().Stop();
-            playing = false;
+            script.playing = false;
         }
     }
 }

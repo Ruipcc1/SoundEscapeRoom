@@ -462,8 +462,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playing: 0
   number: 5
-  Input: 
-  tempInput: 
+  script: {fileID: 0}
 --- !u!114 &466518571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -877,8 +876,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playing: 0
   number: 2
-  Input: 
-  tempInput: 
+  script: {fileID: 21417088}
 --- !u!1 &820922936
 GameObject:
   m_ObjectHideFlags: 0
@@ -909,8 +907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0940adce2c293243b5f10c32dfe97d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  script: {fileID: 0}
-  code: 321
+  script: {fileID: 21417088}
 --- !u!82 &820922938
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1301,8 +1298,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playing: 0
   number: 4
-  Input: 
-  tempInput: 
+  script: {fileID: 0}
 --- !u!114 &1551940557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1722,8 +1718,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playing: 0
   number: 3
-  Input: 
-  tempInput: 
+  script: {fileID: 21417088}
 --- !u!114 &1935731351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2168,5 +2163,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playing: 0
   number: 1
-  Input: 
-  tempInput: 
+  script: {fileID: 21417088}

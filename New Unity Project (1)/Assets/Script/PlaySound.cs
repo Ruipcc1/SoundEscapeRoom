@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlaySound : MonoBehaviour
 {
     public CodeManager script;
-    public string code;
     // Start is called before the first frame update
     void Start()
     {
@@ -41,5 +40,6 @@ public class PlaySound : MonoBehaviour
         yield return new WaitForSeconds(60);
             script.Input = "";
         GetComponent<AudioSource>().Play();
+
     }
 }
