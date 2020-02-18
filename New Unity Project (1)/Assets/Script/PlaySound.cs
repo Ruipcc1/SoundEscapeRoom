@@ -4,14 +4,12 @@ using UnityEngine;
 
 public class PlaySound : MonoBehaviour
 {
-    public AudioClip sound;
-    private AudioSource audioSource;
-    public ImageTargetPlayAudio script;
+    public CodeManager script;
     public string code;
     // Start is called before the first frame update
     void Start()
     {
-        audioSource.PlayOneShot(sound);
+        GetComponent<AudioSource>().Play();
     }
 
     // Update is called once per frame
@@ -25,16 +23,8 @@ public class PlaySound : MonoBehaviour
 
     IEnumerator Wait()
     {
-        yield return new WaitForSeconds(5);
-        if (code == (script.Input))
-        {
-            GetComponent<AudioSource>().Play();
-        }
-        else if (code != (script.Input))
-        {
-            GetComponent<AudioSource>().Play();
-        }
-        if(script.playing == false)
+        yield return new WaitForSeconds(10);
+        if(script.winning == false)
         {
             GetComponent<AudioSource>().Play();
         }
