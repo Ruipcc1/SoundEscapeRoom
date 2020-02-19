@@ -8,7 +8,6 @@ public class CodeManager : MonoBehaviour
     public bool playing;
     public bool winning;
     public string Input;
-    bool won;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +32,9 @@ public class CodeManager : MonoBehaviour
     {
         yield return new WaitForSeconds(5);
         GetComponent<AudioSource>().Play();
-        StartCoroutine(Wait());
+        if (winning == true)
+        {
+            StartCoroutine(Wait());
+        }
     }
 }
